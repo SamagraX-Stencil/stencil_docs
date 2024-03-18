@@ -1,5 +1,21 @@
 [
   {
+    "body": "<h3>Features</h3>\n<ul>\n<li><strong>datetime:</strong> formatOptions property for Datetime (<a href=\"https://github.com/ionic-team/ionic-framework/issues/29065\">#29065</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/7cdbc1b5ad004e17a7c51363653e0e67f50e6860\">7cdbc1b</a>)</li>\n<li><strong>searchbar:</strong> autocapitalize, dir, lang, maxlength, and minlength are inherited to native input (<a href=\"https://github.com/ionic-team/ionic-framework/issues/29098\">#29098</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/a0a77f799df0732d9f7182f15866035a3ce5a1eb\">a0a77f7</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/27606\">#27606</a></li>\n</ul>\n",
+    "name": "v7.8.0",
+    "published_at": "March 13 2024",
+    "tag_name": "v7.8.0",
+    "type": "minor",
+    "version": "7.8.0"
+  },
+  {
+    "body": "<h3>Bug Fixes</h3>\n<ul>\n<li><strong>angular:</strong> add ionNavWillChange and ionNavDidChange types for nav (<a href=\"https://github.com/ionic-team/ionic-framework/issues/29122\">#29122</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/85b9d5c35f626ffc273d220549b0126ddc1f7e4b\">85b9d5c</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/29114\">#29114</a></li>\n<li><strong>checkbox:</strong> set aria-checked of indeterminate checkbox to 'mixed' (<a href=\"https://github.com/ionic-team/ionic-framework/issues/29115\">#29115</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/b2d636f14dcd33313f6604cfd4a64b542c831b34\">b2d636f</a>)</li>\n<li><strong>overlay:</strong> do not hide overlay if toast is presented (<a href=\"https://github.com/ionic-team/ionic-framework/issues/29140\">#29140</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/c0f5e5ebc0c9d45d71e10e09903b00b3ba8e6bba\">c0f5e5e</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/29139\">#29139</a></li>\n</ul>\n",
+    "name": "v7.7.5",
+    "published_at": "March 13 2024",
+    "tag_name": "v7.7.5",
+    "type": "patch",
+    "version": "7.7.5"
+  },
+  {
     "body": "<h3>Bug Fixes</h3>\n<ul>\n<li><strong>modal:</strong> ariaLabel and role are inherited when set via htmlAttributes (<a href=\"https://github.com/ionic-team/ionic-framework/issues/29099\">#29099</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/de13633a182d963876434db773aa346833f956fd\">de13633</a>)</li>\n</ul>\n",
     "name": "v7.7.4",
     "published_at": "March 6 2024",
@@ -86,13 +102,5 @@
     "tag_name": "v7.6.2",
     "type": "patch",
     "version": "7.6.2"
-  },
-  {
-    "body": "<h3>Bug Fixes</h3>\n<ul>\n<li><strong>datetime:</strong> prefer wheel sets working value on confirmation (<a href=\"https://github.com/ionic-team/ionic-framework/issues/28520\">#28520</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/e886e3ff2fcb8a3586a62881c5fc848f3074235d\">e886e3f</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/25839\">#25839</a></li>\n<li><strong>input, textarea:</strong> clearOnInput ignores key modifiers (<a href=\"https://github.com/ionic-team/ionic-framework/issues/28639\">#28639</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/8f7d87c6803b1600a3ca21785df0e9bac49f74a3\">8f7d87c</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/28633\">#28633</a></li>\n<li><strong>menu:</strong> allow styling of the box shadow and transform when visible inside of a split pane (<a href=\"https://github.com/ionic-team/ionic-framework/issues/28691\">#28691</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/8ee23d20d5cc7419ce15f047b92d2f826d3eb681\">8ee23d2</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/21530\">#21530</a></li>\n<li><strong>react:</strong> avoid type collision with @types/<a href=\"mailto:react@18.2.43\">react@18.2.43</a> and greater (<a href=\"https://github.com/ionic-team/ionic-framework/issues/28687\">#28687</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/92f1b8627a240c93891205f75adcb5ce3d46596d\">92f1b86</a>)</li>\n<li><strong>react:</strong> replacing route uses new route direction and animation (<a href=\"https://github.com/ionic-team/ionic-framework/issues/28671\">#28671</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/a17b9631829c36c2daf1d5227f5afa69f99f8743\">a17b963</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/24260\">#24260</a></li>\n<li><strong>react:</strong> use custom animation when going back after a replace (<a href=\"https://github.com/ionic-team/ionic-framework/issues/28674\">#28674</a>) (<a href=\"https://github.com/ionic-team/ionic-framework/commit/fc88613fefa019a3b695a2c6e10c85cd3ce79ae8\">fc88613</a>), closes <a href=\"https://github.com/ionic-team/ionic-framework/issues/28673\">#28673</a></li>\n</ul>\n",
-    "name": "v7.6.1",
-    "published_at": "December 13 2023",
-    "tag_name": "v7.6.1",
-    "type": "patch",
-    "version": "7.6.1"
   }
 ]
