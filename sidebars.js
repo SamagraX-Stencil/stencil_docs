@@ -16,7 +16,7 @@ module.exports = {
       type: 'category',
       label: 'Molecules',
       collapsed: false,
-      items: ['molecules/overview','molecules/loginMobileAadharPage', 'molecules/otpPage']
+      items: ['molecules/overview','molecules/loginMobileAadharPage', 'molecules/otpPage', 'molecules/navbar']
     },
     {
       type: 'category',
@@ -64,5 +64,6 @@ module.exports = {
         'benchmarking/interpreting_the_results',
       ],
     },
+    
   ],
 };
